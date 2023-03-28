@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:text="Newspaper"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/newspaper"
+            />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Do not get wet, straighten it, stack it one by one, and tie it out."
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Avoid mixing vinyl-coated advertisements, vinyl, and other filth."
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:text="Book"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/book"
+            />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Remove the vinyl-coated cover, the spring of the notebook, etc. and remove it."
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:text="box"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/box"
+            />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Remove the vinyl-coated parts, tape iron pins, aluminum foil, etc. attached to the box and fold them out."
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="It is discharged so that it does not mix with other papers, such as providing a separate storage place outdoors."
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:text="Paper pack"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/paperpackbasic"
+            />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Empty the contents, rinse them with water, compress them, put them in an envelope or tie them out."
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Remove and discharge materials other than paper packs such as straws and vinyl."
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="It is discharged to a collection box dedicated to paper packs so that it does not mix with ordinary paper."
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="If there is no exclusive collection box for paper packs, tie it with a string as much as possible to distinguish it from paper and discharge it to the paper collection box."
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:text="Other Paper pack"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Do not get wet, spread it evenly by size, stack it one by one, tie it up, and discharge it to the paper pack collection box."
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</ScrollView>

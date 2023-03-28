@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/color"
+        android:gravity="center_horizontal"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="100dp"
+        android:text="Choose manual"
+        android:textColor="#011627"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonPhoto"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="Photo"
+        android:onClick="onPhotoBtnClick"
+        />
+
+    <Button
+        android:id="@+id/buttonExplain"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="Explain"
+        android:onClick="onExplainBtnClick"
+        />
+
+    <Button
+        android:id="@+id/buttonRecord"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="Previous Record"
+        android:onClick="onRecordBtnClick" />
+
+
+
+</LinearLayout>
