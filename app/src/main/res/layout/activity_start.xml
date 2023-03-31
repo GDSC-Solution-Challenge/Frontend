@@ -24,7 +24,9 @@
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:text="Photo"
+        android:textColor="@color/black"
         android:onClick="onPhotoBtnClick"
+        android:backgroundTint="#ffff00"
         />
 
     <Button
@@ -32,7 +34,9 @@
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:text="Explain"
+        android:textColor="@color/black"
         android:onClick="onExplainBtnClick"
+        android:backgroundTint="#ff0000"
         />
 
     <Button
@@ -40,7 +44,9 @@
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:text="Previous Record"
-        android:onClick="onRecordBtnClick" />
+        android:textColor="@color/black"
+        android:onClick="onRecordBtnClick"
+        android:backgroundTint="#008000"/>
 
 
 

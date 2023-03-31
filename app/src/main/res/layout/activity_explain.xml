@@ -9,12 +9,13 @@
     android:gravity="center_horizontal"
     android:padding="10dp">
 
+
     <TextView
         android:gravity="center_horizontal"
-        android:layout_width="350dp"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
-        android:layout_margin="100dp"
-        android:text="separate garbage collection"
+        android:layout_margin="20dp"
+        android:text="Separate Garbage Collection"
         android:textSize="30sp"
         android:textStyle="bold" />
 
@@ -23,45 +24,103 @@
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:text="paper"
-        android:onClick="onPaperBtnClick" />
+        android:onClick="onPaperBtnClick"
+        android:textColor="@color/black"
+        android:backgroundTint="#ff0000"/>
 
     <Button
         android:id="@+id/button_metal"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:text="metal"
-        android:onClick="onMetalBtnClick" />
+        android:onClick="onMetalBtnClick"
+        android:textColor="@color/black"
+        android:backgroundTint="#ff0000"/>
 
     <Button
         android:id="@+id/button_glass"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:text="glass"
-        android:onClick="onGlassBtnClick" />
+        android:onClick="onGlassBtnClick"
+        android:textColor="@color/black"
+        android:backgroundTint="#ff0000"/>
 
     <Button
         android:id="@+id/button_plastic"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:text="plastic"
-        android:onClick="onPlasticBtnClick" />
+        android:onClick="onPlasticBtnClick"
+        android:textColor="@color/black"
+        android:backgroundTint="#ffff00"/>
+
     <Button
         android:id="@+id/button_vinyl"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:text="vinyl"
-        android:onClick="onVinylBtnClick" />
+        android:onClick="onVinylBtnClick"
+        android:textColor="@color/black"
+        android:backgroundTint="#ffff00"/>
+
     <Button
         android:id="@+id/button_polystyrene"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:text="Styrofoam"
-        android:onClick="onPolyBtnClick" />
+        android:onClick="onPolyBtnClick"
+        android:textColor="@color/black"
+        android:backgroundTint="#ffff00"/>
 
     <Button
         android:id="@+id/button_icepack"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:text="icepack"
-        android:onClick="onIcepackBtnClick" />
+        android:onClick="onIcepackBtnClick"
+        android:textColor="@color/black"
+        android:backgroundTint="#008000"/>
+
+    <Button
+        android:id="@+id/button_wood"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="wood"
+        android:onClick="onWoodBtnClick"
+        android:textColor="@color/black"
+        android:backgroundTint="#008000"/>
+    <Button
+        android:id="@+id/button_clothes"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="clothes"
+        android:onClick="onClothesBtnClick"
+        android:textColor="@color/black"
+        android:backgroundTint="#008000"/>
+    <Button
+        android:id="@+id/button_electronic"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="electronic"
+        android:onClick="onElectronicBtnClick"
+        android:textColor="@color/black"
+        android:backgroundTint="#0000FF"/>
+    <Button
+        android:id="@+id/button_furniture"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="furniture"
+        android:onClick="onFurnitureBtnClick"
+        android:textColor="@color/black"
+        android:backgroundTint="#0000FF"/>
+
+    <Button
+        android:id="@+id/button_light"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="light bulb"
+        android:onClick="onLightBtnClick"
+        android:textColor="@color/black"
+        android:backgroundTint="#0000FF"/>
 </LinearLayout>

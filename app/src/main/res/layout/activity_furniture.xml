@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:text="Furniture"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/furnitureimg"
+            />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Because it cannot be recycled, small trash is thrown into general waste."
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="If it is bulky, such as furniture, it is reported as a large household waste and discharged."
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="If there are nails or sharp substances in the tree, remove them in advance."
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="The price of large waste stickers is determined by the size, and costs from 2,000 won to 10,000 won if they are bulky. You can buy it by visiting a nearby community center or district office. In another case, you can report large-scale waste emissions on the online city/county/gu office site and print and paste it."
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</ScrollView>

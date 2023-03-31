@@ -6,37 +6,42 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:gravity="center_horizontal"
-    android:padding="10dp">
+    android:gravity="center"
+    android:layout_margin="10dp">
 
     <TextView
         android:id="@+id/color"
         android:gravity="center_horizontal"
         android:layout_width="236dp"
         android:layout_height="wrap_content"
-        android:layout_margin="100dp"
+        android:layout_margin="30dp"
         android:text="Cycleye"
         android:textColor="#011627"
         android:textSize="60sp"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/emoji"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_margin="25dp"
-        android:gravity="center_horizontal"
-        android:padding="20dp"
-        android:text="Emoji"
-        android:textColor="#011627"
-        android:textSize="100sp"
-        android:textStyle="bold" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/square_box"
+        android:gravity="center"
+        android:text="Perfect recycling saves the planet."
+        android:textColor="#ffff00"
+        android:layout_margin="50dp"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/trash_start"
+        android:layout_margin="20dp"/>
+
 
     <Button
         android:id="@+id/my_Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
         android:text="Start!"
-        android:onClick="onMyButtonClick" />
+        android:onClick="onMyButtonClick"
+        android:backgroundTint="#000080"/>
 
 </LinearLayout>

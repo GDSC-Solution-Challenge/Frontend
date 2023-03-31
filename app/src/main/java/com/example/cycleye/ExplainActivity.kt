@@ -51,4 +51,29 @@ class ExplainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun onWoodBtnClick(v: View){
+        val intent = Intent(this, WoodActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun onClothesBtnClick(v: View){
+        val intent = Intent(this, ClothesActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun onElectronicBtnClick(v: View){
+        val intent = Intent(this, ElectronicActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun onFurnitureBtnClick(v: View){
+        val intent = Intent(this, FurnitureActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun onLightBtnClick(v: View){
+        val intent = Intent(this, LightActivity::class.java)
+        startActivity(intent)
+    }
+
 }

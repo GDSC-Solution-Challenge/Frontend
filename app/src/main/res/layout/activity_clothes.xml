@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:text="Clothes"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/clothesimg"
+            />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="If the clothes are relatively clean and can be worn by other people, discharge them to the nearest clothing collection box."
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="If it's torn, or if it's so polluted that no one else can wear it, throw it away as general waste"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="If you need to dispose of a large amount of clothing, or if you don't want to just throw it away, you can contact the clothing collection company and get compensation based on your weight."
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Or, there is a way to donate clothes to various public interest organizations or institutions to directly help the underprivileged in Korea or poor overseas."
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</ScrollView>

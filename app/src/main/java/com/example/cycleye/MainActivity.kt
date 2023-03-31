@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
         val emoji = 0x267B
         val emojiText = "${String(Character.toChars(emoji))}"
 
-        binding.emoji.text = emojiText
         setContentView(binding.root)
     }
 
