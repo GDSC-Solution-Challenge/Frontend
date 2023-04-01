@@ -1,0 +1,13 @@
+Clothes
+Electronic
+Furniture
+Glass
+Lightbulb
+Metal
+Paper
+Plastic
+Pot
+Styrofoam
+Vinyl
+Wood
+
