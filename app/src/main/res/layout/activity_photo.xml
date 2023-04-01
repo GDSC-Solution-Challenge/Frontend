@@ -25,15 +25,35 @@
         />
 
         <TextView
-            android:id="@+id/resultText"
+            android:id="@+id/result1Text"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
             android:minHeight="170dp"
-            android:layout_margin="5dp"
-            android:textSize="13sp"
+            android:textSize="25sp"
             app:layout_constraintTop_toTopOf="@+id/imageView"
+            app:layout_constraintBottom_toBottomOf="@+id/result2Text" />
+
+        <TextView
+            android:id="@+id/result2Text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:minHeight="170dp"
+            android:textSize="25sp"
+            app:layout_constraintTop_toTopOf="@+id/result1Text"
+            app:layout_constraintBottom_toBottomOf="@+id/additional_message" />
+
+        <TextView
+            android:id="@+id/additional_message"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:layout_marginBottom="5dp"
+            android:minHeight="170dp"
+            android:textSize="16sp"
+            app:layout_constraintTop_toTopOf="@+id/result2Text"
             app:layout_constraintBottom_toBottomOf="@+id/cameraBtn"
-        />
+             />
 
         <Button
             android:id="@+id/cameraBtn"
