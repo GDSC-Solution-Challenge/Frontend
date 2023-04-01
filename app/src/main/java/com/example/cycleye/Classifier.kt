@@ -3,7 +3,7 @@ package com.example.cycleye
 import android.content.Context
 import android.graphics.Bitmap
 import org.tensorflow.lite.support.common.FileUtil
-import org.tensorflow.lite.support.common.ops.NormalizeOp
+//import org.tensorflow.lite.support.common.ops.NormalizeOp
 import org.tensorflow.lite.support.image.ImageProcessor
 import org.tensorflow.lite.support.image.TensorImage
 import org.tensorflow.lite.support.image.ops.ResizeOp
@@ -44,9 +44,9 @@ class Classifier(private var context: Context, private val modelName: String) {
         val inputs = arrayOf<Any>(inputImage.buffer)
         val outputs = mutableMapOf<Int, Any>()
         outputs[0] = outputBuffer.buffer.rewind()
+
         model.run(inputs, outputs)
         val output = TensorLabel(labels, outputBuffer).mapWithFloatValue
-
         return argmax(output)
     }
 
@@ -57,8 +57,8 @@ class Classifier(private var context: Context, private val modelName: String) {
             inputImage.load(bitmap)
         }
         val imageProcessor = ImageProcessor.Builder()
-            .add(ResizeOp(modelInputWidth, modelInputHeight, ResizeOp.ResizeMethod.NEAREST_NEIGHBOR))
-            .add(NormalizeOp(0.0f, 255.0f))
+            .add(ResizeOp(modelInputHeight, modelInputWidth, ResizeOp.ResizeMethod.NEAREST_NEIGHBOR))
+//            .add(NormalizeOp(0.0f, 255.0f))
             .build()
 
         return imageProcessor.process(inputImage)

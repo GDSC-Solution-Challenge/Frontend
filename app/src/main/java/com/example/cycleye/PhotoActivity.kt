@@ -47,6 +47,7 @@ class PhotoActivity : AppCompatActivity() {
     private lateinit var C_classifier: Classifier
     private lateinit var OX_classifier: Classifier
     private var OX_result = ""
+    private var type = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -59,7 +60,7 @@ class PhotoActivity : AppCompatActivity() {
                 BitmapFactory.decodeFile(f.absolutePath)?.let { image ->
                     binding.imageView.setImageBitmap(image)
                     val output1 = C_classifier.classify(image)
-                    val type = output1.first
+                    type = output1.first
                     val output2 = OX_classifier.classify(image)
                     if (output2.first == "O"){
                         OX_result = "Possible"
