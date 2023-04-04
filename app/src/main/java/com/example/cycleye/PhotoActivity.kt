@@ -4,16 +4,15 @@ import android.Manifest
 import android.app.Activity
 import android.content.Intent
 import android.content.pm.PackageManager
-import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
-import android.view.View
+import android.text.method.ScrollingMovementMethod
 import android.widget.Toast
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
@@ -21,6 +20,7 @@ import com.example.cycleye.databinding.ActivityPhotoBinding
 import java.io.File
 import java.io.IOException
 import java.text.SimpleDateFormat
+
 
 class PhotoActivity : AppCompatActivity() {
 
@@ -77,7 +77,7 @@ class PhotoActivity : AppCompatActivity() {
                         String.format("Separate collection : %s", OX_result)
                     binding.result1Text.text = resultStr1
                     binding.result2Text.text = resultStr2
-
+                    binding.additionalMessage.movementMethod = ScrollingMovementMethod()
                     if (OX_result == "Vague" || OX_result == "Possible")
                     {
                         if (type == "Clothes"){
