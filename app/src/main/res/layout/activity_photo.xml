@@ -1,69 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:gravity="center_horizontal"
-            xmlns:tools="http://schemas.android.com/tools" tools:ignore="ScrollViewCount">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".PhotoActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-    >
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="450dp"
-            android:layout_margin="5dp"
-            app:layout_constraintBottom_toBottomOf="@+id/resultText"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-        />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/result1Text"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_marginTop="5dp"
-            android:minHeight="170dp"
-            android:textSize="25sp"
-            app:layout_constraintTop_toTopOf="@+id/imageView"
-            app:layout_constraintBottom_toBottomOf="@+id/result2Text" />
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="390dp"
+                android:layout_height="240dp"
+                android:layout_margin="10dp"
+                app:layout_constraintBottom_toBottomOf="@+id/cameraBtn"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/result2Text"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_marginBottom="5dp"
-            android:minHeight="170dp"
-            android:textSize="25sp"
-            app:layout_constraintTop_toTopOf="@+id/result1Text"
-            app:layout_constraintBottom_toBottomOf="@+id/additional_message" />
+            <TextView
+                android:id="@+id/result1Text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:minHeight="170dp"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="@+id/cameraBtn" />
 
-        <TextView
-            android:id="@+id/additional_message"
-            android:layout_width="match_parent"
-            android:layout_height="238dp"
-            android:layout_marginBottom="5dp"
-            android:minHeight="170dp"
-            android:textSize="16sp"
-            app:layout_constraintTop_toTopOf="@+id/result2Text"
-            app:layout_constraintBottom_toBottomOf="@+id/cameraBtn"
-             />
+            <TextView
+                android:id="@+id/result2Text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5dp"
+                android:minHeight="170dp"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="@+id/cameraBtn" />
 
-        <Button
-            android:id="@+id/cameraBtn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Camera : Take Picture"
-            android:layout_margin="5dp"
-            android:textSize="13sp"
-            android:backgroundTint="#008000"
-            app:layout_constraintBottom_toBottomOf="parent"
-        />
+            <TextView
+                android:id="@+id/additional_message"
+                android:layout_width="match_parent"
+                android:layout_height="238dp"
+                android:layout_marginBottom="5dp"
+                android:scrollbars = "vertical"
+                android:minHeight="170dp"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/cameraBtn"
+                app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+            <Button
+                android:id="@+id/cameraBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Camera : Take Picture"
+                android:layout_margin="5dp"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+
+        </LinearLayout>
+
+
     </LinearLayout>
+
+
 </ScrollView>
